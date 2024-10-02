@@ -1,0 +1,16 @@
+#wrapper-canvas canvas {
+    max-width: 100%;
+}
+#artext{
+    background: linear-gradient(to left,
+     #03045e,#0077b6,#00b4d8,#90e0ef,#caf0f8
+     );
+     background-clip: text;
+     display:inline;
+     color: transparent;
+     animation: animated 5s linear infinite;
+    
+}
+@keyframes animated {
+    to {background-position-x: 460px;}
+}
